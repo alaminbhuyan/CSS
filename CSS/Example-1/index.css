@@ -1,0 +1,66 @@
+div.container {
+    max-width: 350px;
+    margin: auto;
+}
+
+h3.demo {
+    text-align: center;
+}
+
+.form {
+    background-color: #F2F3F7;
+    padding: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 48%;
+}
+
+#fname {
+    /* float: left; */
+    margin-right: 2px;
+}
+
+#lname {
+    float: right;
+}
+
+input[type=submit] {
+    background-color: #489E48;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+p.signIn {
+    font-weight: bold;
+    text-align: center;
+}
+
+p.signIn a {
+    color: black;
+}
+
+#term,
+#privacy {
+    text-decoration: none;
+    color: green;
+}
+
+span {
+    color: rgb(148, 143, 143);
+}

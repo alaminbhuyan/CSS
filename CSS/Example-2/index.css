@@ -1,0 +1,32 @@
+/* center the div */
+div.demo{
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+div h3{
+    text-align: center;
+    color: blue;
+}
+
+/* center the image */
+div img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Center with line-height */
+.center{
+    line-height: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    text-align: center;
+}
+.center p{
+    line-height: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}

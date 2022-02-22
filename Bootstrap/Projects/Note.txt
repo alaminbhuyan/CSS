@@ -1,0 +1,10 @@
+
+1) password show option.
+
+2) comment option.
+
+3) LogIn with or signUp with gmail, linkedIN, facebook
+
+4) Reset password with gmail.
+
+5) Use icon in login and signUp form
