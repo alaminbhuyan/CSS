@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Forms</title>
+    <style>
+        h2{
+            text-align: center;
+            color: blueviolet;
+        }
+        input[type=text]{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            border: 1px solid green;
+            background-color: rgb(224, 215, 215);
+            color: white;
+        }
+        input[type=text]:focus{
+            background-color: green;
+
+            /* By default, some browsers will add a blue outline around the input when it gets focus (clicked on). You can
+            remove this behavior by adding outline: none; */
+            
+            /* outline: none; */
+        }
+    </style>
+</head>
+<body>
+    <h2>Basic Forms</h2>
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+    </form>
+</body>
+</html>

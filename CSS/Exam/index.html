@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .wel {
+            margin-left: 290px;
+            color: #B47C51;
+        }
+
+        .menu {
+            width: 16%;
+            float: left;
+            padding: 15px;
+            background-color: #2E73B4;
+        }
+
+        .main {
+            width: 75%;
+            float: left;
+            padding: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>
+            <img src="avater.jpg" alt="" style="width: 200px; height: 200px;">
+        </div>
+        <div>
+            <h1 class="wel">Welcome to my site</h1>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="cv.html">My CV</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="importantLink.html">Important Link</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <form action="" style="text-align: center;">
+            User Name: <input type="text"><br> <br>
+            Password: <input type="password"><br> <br>
+            <button>SingIn</button>
+        </form>
+        <p style="text-align: center;">New User? <a href="">SignUp</a></p>
+    </div>
+</body>
+
+</html>
